@@ -1,3 +1,3 @@
 window.addEventListener('beforeinstallprompt', (event) =>
   event.userChoice.then((choiceResult) =>
-    console.log('SW beforeinstallprompt', choiceResult.outcome)))
+    console.log('SW before install prompt: ', choiceResult.outcome)))
